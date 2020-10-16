@@ -3,8 +3,7 @@ const btnClose = document.querySelector('.btnClose');
 const header__menu = document.querySelector('.header__menu');
 const header__btn = document.querySelector('.header__btn');
 const nav__item = document.querySelector('nav__item');
-  function myFunction() {
-    if (window.innerWidth >= 1200) {
+ 
       const tl = new TimelineMax({ paused: true });
       tl.timeScale(1);
       tl.to('h6', 0.3, { opacity: 0 })
@@ -34,16 +33,11 @@ const nav__item = document.querySelector('nav__item');
           x: 250,
           ease: Back.easeOut,
         }, 0.06, '-=0.18');
-    }
-  }
-window.on('resize', function (e) {
-  myFunction();
-})
+ 
   openMenu = () => tl.play();
   closeMenu = () => tl.reverse();
   btnOpen.addEventListener('click', openMenu, false);
   btnClose.addEventListener('click', closeMenu, false);
-  
 
 
   

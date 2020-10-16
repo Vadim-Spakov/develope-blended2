@@ -1,14 +1,14 @@
 .gallery-box {
   display: flex;
   justify-content: center;
-  height: 430px;
+  // height: 430px;
   align-items: center;
 }
 
 .small-box {
   display: inline-flex;
-  height: 140px;
-  width: 140px;
+  // height: 140px;
+  // width: 140px;
   border: 1px solid transparent;
   border-radius: 20px;
   margin-bottom: 6px;
@@ -17,8 +17,8 @@
 }
 
 .big-box {
-  height: 280px;
-  width: 280px;
+  // height: 280px;
+  // width: 280px;
   border: 1px solid transparent;
   border-radius: 20px;
   margin-bottom: 6px;

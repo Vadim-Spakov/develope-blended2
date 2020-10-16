@@ -28,20 +28,17 @@
     top: 0;
     right: 0;
     
-    
-
     @media screen and (max-width:1199px){
-        position: fixed;
+        position: absolute;
         transform: translateX(100%);
-        width: 250px;
+        width: 254px;
         height: 500px;
-
+        border-radius: 0 0 15px 15px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
         background-image: linear-gradient(135deg, #e17992 0%, #d41443 100%);
     }
 
-    @media screen and (min-width:1200px){
-        flex-direction: row-reverse;
-    }
+    
 }
    
 .nav{
@@ -70,6 +67,7 @@
     line-height: 1.28;
     padding: 12px 0px 12px 0px;
     
+    
     color: $base-white-color;
 
     @media screen and (max-width:1199px){
@@ -88,20 +86,18 @@
   position: relative;
   user-select: none;
   cursor: pointer;
-  
-  
   transition: background 0.2s ease-in;
   opacity: 1;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   @media screen and (max-width:1199px){
-       border-bottom: 1px solid #fff;
+       border-bottom: 1px solid #E18298;
     }
 }
 
 .nav__item:first-child{
        @media screen and (max-width:1199px){
-       border-bottom: 1px solid #fff;
+       border-top: 1px solid #E18298;
     }
 }
 
