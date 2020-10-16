@@ -22,7 +22,8 @@ body {
 }
 
 body {
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial,
+ sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
 hr {
@@ -43,7 +44,10 @@ code,
 kbd,
 pre,
 samp {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo,
+ monospace;
+
   font-size: 1em;
 }
 
@@ -139,9 +143,12 @@ summary {
 .container {
   padding-right: 15px;
   padding-left: 15px;
+
+
   margin-right: auto;
   margin-left: auto;
 }
+
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
@@ -221,6 +228,7 @@ button {
   text-transform: uppercase;
   color: #ffa5ba;
 }
+
 
 .cow-container {
   width: 100%;
@@ -646,5 +654,6 @@ button {
     margin-right: 115px;
     margin-bottom: 310px;
   }
-}
+
+
 /*# sourceMappingURL=main.css.map */
