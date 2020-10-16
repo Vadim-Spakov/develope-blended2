@@ -29,7 +29,7 @@
     right: 0;
     
     @media screen and (max-width:1199px){
-        position: absolute;
+        position: fixed;
         transform: translateX(100%);
         width: 254px;
         height: 500px;
@@ -66,7 +66,7 @@
     font-size: 14px;
     line-height: 1.28;
     padding: 12px 0px 12px 0px;
-    
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     color: $base-white-color;
 
@@ -88,8 +88,8 @@
   cursor: pointer;
   transition: background 0.2s ease-in;
   opacity: 1;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  
+ 
   @media screen and (max-width:1199px){
        border-bottom: 1px solid #E18298;
     }
@@ -101,15 +101,10 @@
     }
 }
 
-.nav__item:hover,
-.nav__item:focus{
-    transform: translateY(-4px);
-    
-    
-}
+
 
 .nav__item:hover .nav__link{
-
+transform: translateY(-4px);
 text-shadow: 3px 3px 0px rgba(0,0,0,0.3);
 color: $dark-pink-text-color;
 }
