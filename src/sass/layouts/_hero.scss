@@ -8,8 +8,8 @@
     justify-content: space-between;
 
     &.hero-background-images {
-      background-image: url(../images/hero-img-icecreame-mobile.png),
-        url(../images/hero-ellipse-mobile.png);
+      background-image: url(../images/hero/hero-img-icecreame-mobile.png),
+        url(../images/hero/hero-ellipse-mobile.png);
       background-repeat: no-repeat;
       background-position: right 32px bottom 0, right 0 bottom 75px;
     }
@@ -26,18 +26,18 @@
       display: flex;
 
       &.hero-background-images {
-        background-image: url(../images/hero-img-milk-tablet.png),
-          url(../images/hero-img-icecreame-tablet.png),
-          url(../images/hero-img-girl-desctop.png),
-          url(../images/hero-ellipse-tablet.png);
+        background-image: url(../images/hero/hero-img-milk-tablet.png),
+          url(../images/hero/hero-img-icecreame-tablet.png),
+          url(../images/hero/hero-img-girl-desctop.png),
+          url(../images/hero/hero-ellipse-tablet.png);
         background-position: left 15px bottom 28px, right 230px bottom 0,
           right 15px bottom 0, right 115px bottom 60px;
 
         @media screen and (min-width: 1200px) {
-          background-image: url(../images/hero-img-milk-desctop.png),
-            url(../images/hero-img-icecreame-desctop.png),
-            url(../images/hero-img-girl-desctop.png),
-            url(../images/hero-ellipse-desctop.png);
+          background-image: url(../images/hero/hero-img-milk-desctop.png),
+            url(../images/hero/hero-img-icecreame-desctop.png),
+            url(../images/hero/hero-img-girl-desctop.png),
+            url(../images/hero/hero-ellipse-desctop.png);
           background-position: left 0px bottom 30px, right 280px bottom 0,
             right 15px bottom 0, right 85px bottom 40px;
         }
