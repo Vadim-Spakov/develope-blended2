@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://JuliaFedyuk.github.io/develope-blended2",
+  "homepage": "https://JuliaFedyuk.github.io/develope",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url=/develope-blended2/",
+    "predeploy": "npm run build -- --public-url='/develope/'",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -25,5 +25,8 @@
     "parcel-bundler": "^1.12.4",
     "posthtml-include": "^1.4.3",
     "sass": "^1.26.9"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
   }
 }
