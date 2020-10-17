@@ -17,11 +17,12 @@
 
 .logo{
     display: inline-block;
-    margin-top: 6px;
-
    
+@media screen and (min-width:1200px){
+   position: relative;
+   left: -50px;
 }
-
+}
 .header__menu{
     display: flex;
     justify-content: center;
@@ -115,6 +116,20 @@ color: $dark-pink-text-color;
         margin-left: 35px;
     }
     
+}
+
+.winter{
+    
+    @media  (max-width:1800px){
+        display: none;
+        width: 1px;
+        height: 1px;
+        margin: 1px;
+        padding: 0;
+        border: 0;
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 }
 
 

@@ -4,6 +4,9 @@ const header__menu = document.querySelector('.header__menu');
 const header__btn = document.querySelector('.header__btn');
 const nav__item = document.querySelector('nav__item');
 const tl = new TimelineMax({ paused: true });
+if (document.documentElement.clientWidth < 1200) {
+
+
   tl.timeScale(1);
   tl.to('h6', 0.3, { opacity: 0 })
     .to(btnOpen, 0.7, {
@@ -30,11 +33,11 @@ const tl = new TimelineMax({ paused: true });
       x: 250,
       ease: Back.easeOut,
     }, 0.06, '-=0.18');
-
-openMenu = () => tl.play();
-closeMenu = () => tl.reverse();
-btnOpen.addEventListener('click', openMenu, false);
-btnClose.addEventListener('click', closeMenu, false);
+}
+  openMenu = () => tl.play();
+  closeMenu = () => tl.reverse();
+  btnOpen.addEventListener('click', openMenu, false);
+  btnClose.addEventListener('click', closeMenu, false);
 
 
   
