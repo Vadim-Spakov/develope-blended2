@@ -94,14 +94,17 @@
 }
 
 .pink-card {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   background-color: $pink-background-color;
 }
 
 .sand-card {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   background-color: $sand-background-color;
 }
 
 .green-card {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   background-color: $green-background-color;
 }
 
@@ -166,11 +169,13 @@
 
     &-first-title {
       font-size: 33px;
+      text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
 
     &-title {
       font-size: 58px;
       margin-bottom: 260px;
+      text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     }
 
     &-name-title {
