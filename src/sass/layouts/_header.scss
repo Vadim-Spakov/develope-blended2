@@ -17,30 +17,26 @@
 
 .logo{
     display: inline-block;
-    margin-top: 6px;
-
    
+@media screen and (min-width:1200px){
+   position: relative;
+   left: -50px;
 }
-
+}
 .header__menu{
     display: flex;
     justify-content: center;
     top: 0;
     right: 0;
     
-    
-
     @media screen and (max-width:1199px){
         position: fixed;
         transform: translateX(100%);
-        width: 250px;
+        width: 254px;
         height: 500px;
-
-        background-image: linear-gradient(135deg, #e17992 0%, #d41443 100%);
-    }
-
-    @media screen and (min-width:1200px){
-        flex-direction: row-reverse;
+        border-radius: 0 0 15px 15px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        background: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
     }
 }
    
@@ -69,6 +65,7 @@
     font-size: 14px;
     line-height: 1.28;
     padding: 12px 0px 12px 0px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     color: $base-white-color;
 
@@ -88,32 +85,23 @@
   position: relative;
   user-select: none;
   cursor: pointer;
-  
-  
   transition: background 0.2s ease-in;
   opacity: 1;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  
+ 
   @media screen and (max-width:1199px){
-       border-bottom: 1px solid #fff;
+       border-bottom: 1px solid #E18298;
     }
 }
 
 .nav__item:first-child{
        @media screen and (max-width:1199px){
-       border-bottom: 1px solid #fff;
+       border-top: 1px solid #E18298;
     }
 }
 
-.nav__item:hover,
-.nav__item:focus{
-    transform: translateY(-4px);
-    
-    
-}
-
 .nav__item:hover .nav__link{
-
+transform: translateY(-4px);
 text-shadow: 3px 3px 0px rgba(0,0,0,0.3);
 color: $dark-pink-text-color;
 }
@@ -124,6 +112,20 @@ color: $dark-pink-text-color;
         margin-left: 35px;
     }
     
+}
+
+.winter{
+    
+    @media  (max-width:1800px){
+        display: none;
+        width: 1px;
+        height: 1px;
+        margin: 1px;
+        padding: 0;
+        border: 0;
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 }
 
 
