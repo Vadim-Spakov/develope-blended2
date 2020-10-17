@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://JuliaFedyuk.github.io/develope",
+  "homepage": "https://JuliaFedyuk.github.io/develope-blended2",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url='/develope/'",
+    "predeploy": "npm run build -- --public-url='/develope-blended2/'",
     "deploy": "gh-pages -d dist"
   },
   "repository": {

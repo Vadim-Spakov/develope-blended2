@@ -51,6 +51,7 @@
   fill: $light-pink-text-color;
   margin-bottom: 16px;
   margin-top: 38px;
+}
 
 .cow-paragraph-two,
 .cow-paragraph-three {
@@ -101,8 +102,8 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #d41443;
-  text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-
+  text-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
 
 @media screen and (min-width: 768px) {
   .cow-item {
@@ -224,9 +225,11 @@
     margin-left: 74px;
     margin-right: 117px;
   }
+
   .made-title {
     margin-bottom: 106px;
   }
+
   .cow-features {
     font-size: 16px;
   }
